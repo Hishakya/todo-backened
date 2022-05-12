@@ -16,7 +16,7 @@ const url = "mongodb+srv://rajni:12345@cluster0.rqxya.mongodb.net/todo?retryWrit
 
 mongoose.connect(url , {useNewUrlParser:true})
 .then(()=>{
-    console.log("database connected")
+    console.log("database connected congratulation")
 })
 .catch((err) => console.log(err))
 
